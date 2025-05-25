@@ -24,5 +24,5 @@ conda env create -f conda_env.yaml
 ```
 Export the environment:
 ```
-conda env export --name IREN > conda_env.yaml
+conda env export --name FTML > conda_env.yaml
 ```
