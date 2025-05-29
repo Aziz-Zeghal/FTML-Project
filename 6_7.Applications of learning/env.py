@@ -1,4 +1,7 @@
-"""Env file for common environment variables and functions."""
+"""Env file for common environment variables and functions.
+
+To use only by the models, not the EDA (because of the DATA relative path).
+"""
 
 import re
 
