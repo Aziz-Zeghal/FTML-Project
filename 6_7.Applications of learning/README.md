@@ -4,6 +4,7 @@
 - [Description](#description)
 - [Features](#features)
 - [Goal](#goal)
+- [Models](#models)
 - [Usage](#usage)
 
 ## Description
@@ -22,6 +23,13 @@ The goal of this project is to answer this problematic: *Is it possible to deplo
 To achieve this, we will build a machine learning model that can accurately classify emails as phishing or legitimate based on their content. This involves preprocessing the email text, extracting features, and training a classification model.
 
 This problematic is a real-world challenge in cybersecurity for growing companies that do not have the resources to hire a cybersecurity expert.
+
+## Models
+This folder contains two types of models:
+- **Supervised Learning**: We will use classification algorithms such as Logistic Regression, Random Forest, and Support Vector Machine (SVM) to classify emails.
+- **Unsupervised Learning**: We will explore clustering techniques to identify patterns in the email data, which can help in understanding the characteristics of phishing emails.
+
+For more details on the models and their implementation, refer to their respective notebook files in the `supervised` and `unsupervised` folders.
 
 ## Usage
 To use this project, follow these steps:
