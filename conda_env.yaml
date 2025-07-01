@@ -259,6 +259,8 @@ dependencies:
       - google-pasta==0.2.0
       - grpcio==1.71.0
       - idna==3.10
+      - imbalanced-learn==0.13.0
+      - imblearn==0.0
       - jsonschema==4.23.0
       - jsonschema-specifications==2025.4.1
       - libclang==18.1.1
@@ -288,6 +290,7 @@ dependencies:
       - referencing==0.36.2
       - requests==2.32.3
       - rpds-py==0.24.0
+      - sklearn-compat==0.1.3
       - tabulate==0.9.0
       - tensorboard==2.19.0
       - tensorboard-data-server==0.7.2
