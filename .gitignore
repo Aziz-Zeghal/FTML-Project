@@ -1,1 +1,5 @@
 __pycache__/
+
+# Custom dataset
+Phishing_Email.csv
+phishing_email_cleaned.csv
