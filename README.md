@@ -17,7 +17,10 @@ Each folder is a section of the project's content.
 7. Application of unsupervised learning
 
 ## Configuration
-### Conda
+### Python Environment
+There are two ways to set up the Python environment for this project: using `pip` or `conda`.
+
+#### Using Conda
 Set up the environment using Conda:
 ```
 conda env create -f conda_env.yaml
@@ -25,4 +28,14 @@ conda env create -f conda_env.yaml
 Export the environment:
 ```
 conda env export --name FTML > conda_env.yaml
+```
+
+#### Using Pip
+Set up the environment using Pip:
+```
+pip install -r requirements.txt
+```
+Export the environment:
+```
+pip freeze > requirements.txt
 ```
